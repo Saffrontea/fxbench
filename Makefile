@@ -16,7 +16,7 @@ bench:
 	done
 
 clean:
-	rm -rf $(RESULT_DIR)
+	rm -rf $(RESULT_DIR)/run*/
 	rm -rf target/criterion
-#	cargo clean
+	cargo clean
 
