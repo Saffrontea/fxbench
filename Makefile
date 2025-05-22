@@ -1,4 +1,4 @@
-RUNS := 10
+RUNS := 30
 BENCH := hash_bench
 RESULT_DIR := results
 
@@ -18,5 +18,5 @@ bench:
 clean:
 	rm -rf $(RESULT_DIR)
 	rm -rf target/criterion
-	cargo clean
+#	cargo clean
 
